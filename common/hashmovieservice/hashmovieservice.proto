@@ -1,0 +1,15 @@
+syntax = "proto3";
+package common; 
+option go_package = "github.com/JamesTiberiusKirk/moviehash;hashmovieservice";
+
+service HashMovieName {
+  rpc HashName (MovieNameRequest) returns (HashedNameReply) {}
+}
+
+message MovieNameRequest {
+  string name = 1;
+}
+
+message HashedNameReply {
+  string hash = 1;
+}
