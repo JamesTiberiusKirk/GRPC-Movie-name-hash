@@ -1,2 +1,2 @@
 *.pb.go
-*mock_test.go
+*mock.go
