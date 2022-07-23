@@ -18,7 +18,5 @@ services:
     build: 
       context: .
       dockerfile: ./cryptoservice/Dockerfile
-    ports:
-      - 3000:3000
     environment:
       - GRPC_PORT=:3000

@@ -18,4 +18,6 @@ controller out from the handler function.
     on every single handler.
 
 P.S. I know convention is that we do not commit `.env`, but theres no actual secrets in
-in there, and for running locally, its needed.
+in there, and for running locally, its needed.  
+P.S.S Sorry, on projects where I work alone I dont typically follow propper git etiquate,
+So no git history.  
